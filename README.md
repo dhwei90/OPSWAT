@@ -1,10 +1,10 @@
 # OPSWAT File Scanner
 
 ## Introduction
-This is a simple program that scans a file against OPSWAT API.
+A simple tool that scans a file against OPSWAT API.
 1. Calculates the hash of the file specified by the user (up to 140MB in size)
-2. Performs a hash lookup against metadefender.opswat.com and see if there are previously cached results for the file
-3. If results found then skip to 6
+2. Performs a hash lookup against metadefender.opswat.com and checks if there are previously cached results for the file
+3. If results found then skips to 6
 4. If results not found then uploads the file and receives a `data_id`
 5. Repeatedly polls on the `data_id` to retrieve results, until scanning is done
 6. Displays results including overall status and results by engine
