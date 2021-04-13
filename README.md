@@ -9,11 +9,11 @@ This is a simple program that scans a file against OPSWAT API.
 5. Repeatedly polls on the `data_id` to retrieve results, until scanning is done
 6. Displays results including overall status and results by engine
 
-## Build
+## Build and Execute
 1. Clone or download the repo: https://github.com/dhwei90/OPSWAT.git
 2. Set your API key in `.env` as `APIKEY`
 3. Place your file to be scanned in the repo directory
 4. Install npm packages: `npm i package.json`
-5. Run application: `node index.js`
+5. Execute application: `node index.js`
 6. At the prompt, type in name of the file to be scanned, or press "q" to quit application: e.g. `filesToScan/samplefile.txt`
 7. Hit enter and wait for check results
